@@ -1,20 +1,5 @@
 # ICS 4U0 — Lesson 4: Loops and Iteration
 
----
-
-Every lesson that we go through will have several files, here's how to navigate:
-
-| File | What it is |
-|------|------------|
-| `README.md` | This file should open *first* and will contain information about where to find everything, and what your exercise will be. |
-| `src/` folder | This folder will contain the actual code files.  `.java` files are the source code you can look at and run, `.class` files are the bytecode generated when the source code is compiled.  |
-| `src/IterationDemo.java` | The example code that your teacher will go through. |
-| `src/TemperatureLog.java` | Your exercise template will be here. |
-| `test/TemperatureLogTest.java` | Automatic tests for the exercise. You don't need to edit this file. |
-| `lib/` | The testing library (JUnit) the tests run on. You don't need to open this. |
-
----
-
 ## Exercise
 
 You're logging temperature readings for a weather station. Some readings are scheduled ahead of time; others come in later as they're recorded.
