@@ -76,21 +76,6 @@ The variable declared in the initialization (`i` above) is the loop control vari
 
 ## 3. Choosing Between `while` and `for`
 
-A `for` loop is a `while` loop with its bookkeeping pulled into the header. Either one can do the other's job.
-
-```java
-// for
-for (int i = 0; i < 5; i++) {
-    System.out.println(i);
-}
-
-// the same loop, as a while
-int i = 0;
-while (i < 5) {
-    System.out.println(i);
-    i++;
-}
-```
 
 Use a `for` loop when the number of iterations is known (or countable) before the loop starts: a fixed range, N repetitions. Use a `while` loop when the stopping condition depends on something that happens inside the loop and cannot be counted in advance, such as reading input until a particular value appears.
 
@@ -143,8 +128,6 @@ do {
 ```
 
 The body runs first and the condition is checked after, which is useful for input validation: you need one attempt to read a value before you can check whether it was valid.
-
-> **AP students** `do-while` does not appear in the CED and is not tested on the exam. It remains expected Java knowledge for this course.
 
 ---
 
